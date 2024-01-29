@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 40px;
+    }
+
+    .project {
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      padding: 20px;
+    }
+  </style>
+  <title>Bryce Rega - Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="about">
+    <div class="container">
+      <img src="./profile.jpg" alt="Profile Photo" width="300px">
+      <h1>Bryce Rega</h1>
+      <p style="font-family: 'Courier New', Courier, monospace; color: brown">Embedded Software and Web Developer</p>
+      <p>Hello, I'm Bryce Rega. I'm a junior Computer Engineering major at Iowa State University. I've always had a
+        software background, and my interests range from the lowest embedded software to top level web development.</p>
+    </div>
+  </section>
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <img src="./Roomba.JPG" alt="Project 1">
+        <h3>Autonomous Roomba</h3>
+        <p>This project is related to Iowa State University's embedded systems class (CprE 288). This project involved
+          using the datasheet for a TI chip to configure the microcontroller mounted on the Roomba to work in our favor.
+          This ended up being an autonomous Roomba project where the microcontroller interfaced with different sensors
+          and commanded the motors to get the Roomba to go where it needed to go. The target was selected on a GUI
+          developed in Python and the data was relayed to the Roomba over WiFi.</p>
+      </div>
+      <div class="project">
+        <img src="./InstallingMotors.JPG" alt="Project 2">
+        <h3>Cruise Control</h3>
+        <p>This project was completed for PrISUm-- Iowa State's solar car team. This solar powered vehicle, Eliana, runs
+          on two electric motors. The motor controllers use Mitsuba Motor Controllers (being installed in this picture)
+          which help command the motors. A custom board was made to interface with the motor controllers. I developed
+          the embedded software for this board. This included a custom cruise control developed form scratch. After some
+          testing and tuning, the cruise control now works like any other.</p>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>You can reach me at brega@iastate.edu</p>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2024 Bryce Rega</p>
+  </footer>
+</body>
+
+</body>
+
+</html>
